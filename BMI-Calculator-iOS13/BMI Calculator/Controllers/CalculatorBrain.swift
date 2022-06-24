@@ -11,6 +11,7 @@ import UIKit
 
 struct CalculatorBrain {
     var tempBMI : Float?
+    
  mutating func  calculateBMI(Height : Float, Weight : Float)->Float {
       let  BMI = Weight / pow(Height,2)
       tempBMI = BMI

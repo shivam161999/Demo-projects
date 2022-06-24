@@ -45,6 +45,9 @@ class calculateViewController: UIViewController {
         if segue.identifier  == "gotoResults"{
             let destinationVC = segue.destination as! ResultViewController
             destinationVC.bmiValue = String(format: "%.1f", calculatorBrain.getBMIValue())
+        
+    
+           
             
         }
     }
